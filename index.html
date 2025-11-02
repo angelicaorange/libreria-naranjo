@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Encantada 📚</title>
+    <link rel="stylesheet" href="archivo.css" >
+</head>
+<body>
+
+    <header>
+        <h1>📚 Librería Naranjo</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Categorías</a>
+            <a href="#">Ofertas</a>
+            <a href="#" id="carritoBtn">🛒 Carrito (<span id="contadorCarrito">0</span>)</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-texto">
+            <h2>Descubre mundos entre páginas</h2>
+            <p>Encuentra tu próxima gran historia al mejor precio.</p>
+            <button id="verCatalogo">Ver catálogo</button>
+        </div>
+    </section>
+
+    <section id="catalogo" class="catalogo">
+        <h2>✨ Libros destacados ✨</h2>
+        <div id="librosContainer" class="libros-container"></div>
+    </section>
+
+    <div id="carritoModal" class="modal">
+        <div class="modal-content">
+            <span id="cerrarModal" class="cerrar">&times;</span>
+            <h3>🛒 Tu carrito</h3>
+            <div id="itemsCarrito"></div>
+            <p id="totalCarrito">Total: $0</p>
+            <button id="comprarBtn">Finalizar compra</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Librería Naranjo</p>
+    </footer>
+
+    <script src="archivo.js"></script>
+</body>
+</html>
+
