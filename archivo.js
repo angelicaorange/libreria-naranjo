@@ -59,7 +59,7 @@ window.onclick = (e) => { if (e.target == carritoModal) carritoModal.style.displ
 
 
 comprarBtn.onclick = () => {
-    alert("🎉 ¡Gracias por tu compra!");
+    alert(" ¡Gracias por su compra!");
     carrito = [];
     actualizarCarrito();
     carritoModal.style.display = "none";
@@ -69,3 +69,4 @@ comprarBtn.onclick = () => {
 document.getElementById("verCatalogo").onclick = () => {
     document.getElementById("catalogo").scrollIntoView({ behavior: "smooth" });
 };
+
